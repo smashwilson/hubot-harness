@@ -1,0 +1,31 @@
+{
+  "name": "hubot-harness",
+  "version": "1.0.0",
+  "description": "Test harness for Hubot script and plugin development",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smashwilson/hubot-harness.git"
+  },
+  "keywords": [
+    "hubot",
+    "test"
+  ],
+  "author": "Ash Wilson <smashwilson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smashwilson/hubot-harness/issues"
+  },
+  "homepage": "https://github.com/smashwilson/hubot-harness#readme",
+  "peerDependencies": {
+    "hubot": "3.x"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "hubot": "3.3.2",
+    "mocha": "6.1.4"
+  }
+}
