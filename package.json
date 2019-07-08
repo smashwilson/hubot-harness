@@ -4,7 +4,9 @@
   "description": "Test harness for Hubot script and plugin development",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "prettier --check",
+    "format": "prettier --write"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
   "devDependencies": {
     "chai": "4.2.0",
     "hubot": "3.3.2",
-    "mocha": "6.1.4"
+    "mocha": "6.1.4",
+    "prettier": "1.18.2"
   }
 }
