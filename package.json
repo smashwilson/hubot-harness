@@ -2,7 +2,7 @@
   "name": "hubot-harness",
   "version": "1.0.0",
   "description": "Test harness for Hubot script and plugin development",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
     "lint": "prettier --check",
