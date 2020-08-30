@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
-    "lint": "prettier --check",
-    "format": "prettier --write"
+    "lint": "prettier --check lib/**/*.js test/**/*.js",
+    "format": "prettier --write lib/**/*.js test/**/*.js"
   },
   "repository": {
     "type": "git",
